@@ -24,7 +24,9 @@ public class PropertyReader {
                 case "russian":
                     ip = new FileInputStream("./src/main/resources/lang.russian.properties");
                     break;
-
+                case "spanish":
+                    ip = new FileInputStream("./src/main/resources/lang.spanish.properties");
+                    break;
                 default:
                     System.out.println("lang not found..." + language);
                     break;
